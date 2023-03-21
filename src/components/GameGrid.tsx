@@ -1,5 +1,6 @@
 import { SimpleGrid, Text } from "@chakra-ui/react";
 import { SiDigikeyelectronics } from "react-icons/si";
+import { GameQuery } from "../App";
 import useGames, { Platform } from "../hooks/useGames";
 import { Genre } from "../hooks/useGenres";
 import GameCard from "./GameCard";
